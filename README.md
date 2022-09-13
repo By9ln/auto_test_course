@@ -1,6 +1,2 @@
 # stepik
-sdasdasdadS
-ADASDSADAS
-DASDSADAS
-DASDASDA
-D
+test_course
