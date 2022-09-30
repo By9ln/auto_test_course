@@ -8,11 +8,11 @@ try:
     browser.get(link)
 
     input1 = browser.find_element(By.TAG_NAME, "input")
-    input1.send_keys("test")
+    input1.send_keys("tests")
     input2 = browser.find_element(By.CLASS_NAME, "form-control.second")
-    input2.send_keys("test")
+    input2.send_keys("tests")
     input3 = browser.find_element(By.CLASS_NAME, "form-control.third")
-    input3.send_keys("test@test.com")
+    input3.send_keys("tests@tests.com")
     
 
     # Отправляем заполненную форму

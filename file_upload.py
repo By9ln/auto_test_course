@@ -10,14 +10,14 @@ try:
     browser.get(link)
 
     input1 = browser.find_element(By.NAME, "firstname")
-    input1.send_keys("test")
+    input1.send_keys("tests")
     input2 = browser.find_element(By.NAME, "lastname")
-    input2.send_keys("test")
+    input2.send_keys("tests")
     input3 = browser.find_element(By.NAME, "email")
-    input3.send_keys("test@test.com")
+    input3.send_keys("tests@tests.com")
 
     button1 = browser.find_element(By.ID, "file")
-    button1.send_keys("C:/Users/By9ln/PycharmProjects/pythonProject/venv/Scripts/test.txt")
+    button1.send_keys("C:/Users/By9ln/PycharmProjects/pythonProject/venv/Scripts/tests.txt")
 
     time.sleep(1)
 

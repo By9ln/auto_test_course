@@ -7,7 +7,7 @@ link = "http://selenium1py.pythonanywhere.com/"
 
 @pytest.fixture
 def browser():
-    print("\nstart browser for test..")
+    print("\nstart browser for tests..")
     browser = webdriver.Chrome()
     yield browser
     print("\nquit browser..")
@@ -16,7 +16,7 @@ def browser():
 @pytest.fixture(autouse=True)
 def prepare_data():
     print()
-    print("preparing some critical data for every test")
+    print("preparing some critical data for every tests")
 
 
 class TestMainPage1():
