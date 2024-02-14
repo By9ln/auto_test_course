@@ -18,7 +18,7 @@ try:
     input3 = browser.find_element(By.CLASS_NAME, "city")
     input3.send_keys("Smolensk")
     input4 = browser.find_element(By.ID, "country")
-    input4.send_keys("Russia")
+    input4.send_keys("UA")
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     button.click()
 
